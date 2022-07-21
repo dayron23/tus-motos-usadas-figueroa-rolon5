@@ -1,0 +1,198 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(18, 95, 91);
+}
+header {
+    display: flex;
+    min-height: 100px;
+    background-color:rgba(63, 177, 158, 0.671);
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    height: 80px;
+    margin-right: 5px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding-right: 20px;
+    gap: 50px;
+}
+
+.listado-navegacion li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: 1s;
+}
+
+li a:hover {
+    background-color:rgba(93, 219, 228, 0.801);
+    padding: 10px;
+}
+
+
+@media (max-width:700px) {
+    header {
+        flex-direction:  column;
+    }
+
+    nav { 
+        padding: 10px 0px;
+    }
+}
+
+#fotofamilia {
+    display: flex;
+    justify-content: center;
+}
+
+
+.video{
+    display: flex;
+    justify-content: right;
+}
+
+
+.colorrojo {
+    color: firebrick;
+    text-align: center;
+    font-size: 25px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 62px;
+}
+
+
+.container {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.izquierda{
+    width: 800px;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.margen {
+    margin: 20px;
+
+}
+
+.fotoshistoria {
+    height: 200px;
+    width: 600px;
+    margin: 20px;
+}
+
+
+.fuenteinte1 {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 0px;
+    right: 20px;
+}
+
+.whatsapp img {
+    height: 50px;
+    width: 50px;
+
+}
+
+footer img {
+    height: 50px;
+    width: 50px;
+
+}
+
+footer {
+    display: flex;
+    background-color:rgba(63, 177, 158, 0.671);
+    padding: 28px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer p {
+    font-weight: 600;
+}
+
+.footerlogo {
+    display: flex;
+    gap: 30px;
+}
+
+
+#imagenfondo {
+    background-image: url(../img/motoform.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 650px;
+    background-repeat: no-repeat;
+}
+
+fieldset {
+    text-decoration-color: white;
+}
+
+.textblanco {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+/* GALERIA*/
+
+.caja_cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: black;
+    width: 280px;
+    height: 430px;
+    margin: 20px;
+    padding: 20px;
+    border: double 5px gray;
+
+}
+
+.card__imagen {
+    display: block;
+    width: 250px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.card__titulo {
+    color: rgba(220, 220, 220, 0.582);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card__parrafo{
+    color: white;
+}
